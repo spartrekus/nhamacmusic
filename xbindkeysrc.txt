@@ -1,0 +1,26 @@
+
+
+###########################
+# xbindkeys configuration #
+###########################
+# Version: 1.8.5
+# If you edit this file, do not forget to uncomment any lines
+# that you change.
+# The pound(#) symbol may be used anywhere for comments.
+
+
+#" amixer  set Master 2+ "
+" amixer -c 1  set PCM  1+ "
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
+
+#" amixer  set Master 2- "
+" amixer  -c 1  set PCM 1- "
+    m:0x0 + c:122
+    XF86AudioLowerVolume
+
+" pkill mplayer "
+    m:0x0 + c:172
+    XF86AudioPlay
+
+
